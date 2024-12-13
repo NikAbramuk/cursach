@@ -1,0 +1,141 @@
+
+/* Сине-зеленый градиентный фон */
+body {
+    font-family: 'Roboto', sans-serif;
+   background: linear-gradient(to right, #28a745, #1e3c72) !important;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Минимальная высота для body */
+    color: #333; /* Темно-серый текст */
+}
+
+header {
+    color: white; /* Белый текст заголовка */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white; /* Белый цвет для ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+main {
+    padding: 20px;
+    flex: 1; /* Основной контент занимает оставшееся пространство */
+    background-color: #fff; /* Белый фон для основного контента */
+}
+
+footer {
+    background-color: #000; /* Черный фон для подвала */
+    color: white; /* Белый текст подвала */
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Светло-серая граница таблицы */
+}
+
+th, td {
+    padding: 12px; /* Внутренние отступы ячеек */
+    text-align: left;
+}
+
+th {
+    background-color: #e0e0e0; /* Светло-серый фон заголовков таблицы */
+}
+
+tr:hover {
+    background-color: #d0d0d0; /* Светло-серый фон при наведении на строку */
+}
+
+form {
+    background-color: #fff; /* Белый фон формы */
+    border: 1px solid #ccc; /* Светло-серая граница формы */
+    padding: 20px;
+    border-radius: 5px; /* Закругленные углы */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Тень для формы */
+}
+
+label {
+    display: block; /* Каждый label на новой строке */
+    margin: 10px 0 5px; /* Отступы для label */
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: calc(100% - 22px); /* Полная ширина с учетом отступов */
+    padding: 10px;
+    margin-bottom: 10px; /* Отступы между полями */
+    border: 1px solid #ccc; /* Светло-серая граница полей */
+    border-radius: 4px; /* Закругленные углы */
+}
+
+button {
+    background-color: #27ae60; /* Черный цвет кнопки */
+    color: white; /* Белый цвет текста кнопки */
+    padding: 10px 15px;
+    border: none; /* Без границы */
+    border-radius: 4px; /* Закругленные углы */
+    cursor: pointer; /* Курсор указывает на кликабельность */
+}
+
+button:hover {
+    background-color: #27ae60; /* Темно-серый цвет кнопки при наведении */
+}
+
+header nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav li {
+    margin: 0 15px; /* Добавляем отступы между пунктами меню */
+}
+
+header nav a, header nav span {
+    font-size: 18px; /* Увеличиваем размер шрифта */
+    color: white;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav a[href="logout.php"] {
+    color: red; /* Красный цвет для ссылки "Выйти" */
+}
+
+header nav a[href="logout.php"]:hover {
+    text-decoration: underline;
+    color: darkred; /* Более темный красный при наведении */
+}
